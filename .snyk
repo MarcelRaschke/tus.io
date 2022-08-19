@@ -1,0 +1,94 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - depurar > debug:
+        patched: '2022-08-19T19:46:29.339Z'
+    - lanyon > scrolex > depurar > debug:
+        patched: '2022-08-19T19:46:29.339Z'
+    - on-the-githubs > mocha > debug:
+        patched: '2022-08-19T19:46:29.339Z'
+  'npm:hoek:20180212':
+    - on-the-githubs > request > hawk > hoek:
+        patched: '2022-08-19T19:46:29.339Z'
+    - on-the-githubs > request > hawk > boom > hoek:
+        patched: '2022-08-19T19:46:29.339Z'
+    - on-the-githubs > request > hawk > sntp > hoek:
+        patched: '2022-08-19T19:46:29.339Z'
+    - on-the-githubs > request > hawk > cryptiles > boom > hoek:
+        patched: '2022-08-19T19:46:29.339Z'
+  SNYK-JS-LODASH-567746:
+    - eslint > lodash:
+        patched: '2022-08-19T19:46:29.339Z'
+    - eslint-import-resolver-webpack > lodash:
+        patched: '2022-08-19T19:46:29.339Z'
+    - eslint > inquirer > lodash:
+        patched: '2022-08-19T19:46:29.339Z'
+    - eslint > table > lodash:
+        patched: '2022-08-19T19:46:29.339Z'
+    - lanyon > @babel/core > lodash:
+        patched: '2022-08-19T19:46:29.339Z'
+    - lanyon > html-webpack-plugin > lodash:
+        patched: '2022-08-19T19:46:29.339Z'
+    - lanyon > node-sass > lodash:
+        patched: '2022-08-19T19:46:29.339Z'
+    - lanyon > webpack-bundle-analyzer > lodash:
+        patched: '2022-08-19T19:46:29.339Z'
+    - lanyon > @babel/preset-env > @babel/plugin-transform-block-scoping > lodash:
+        patched: '2022-08-19T19:46:29.339Z'
+    - lanyon > browser-sync > easy-extender > lodash:
+        patched: '2022-08-19T19:46:29.339Z'
+    - lanyon > optimize-css-assets-webpack-plugin > last-call-webpack-plugin > lodash:
+        patched: '2022-08-19T19:46:29.339Z'
+    - lanyon > webpack-dev-server > http-proxy-middleware > lodash:
+        patched: '2022-08-19T19:46:29.339Z'
+    - lanyon > @babel/preset-env > @babel/plugin-transform-classes > @babel/helper-define-map > lodash:
+        patched: '2022-08-19T19:46:29.339Z'
+    - lanyon > webpack-dev-server > portfinder > async > lodash:
+        patched: '2022-08-19T19:46:29.339Z'
+    - lanyon > @babel/preset-env > @babel/plugin-transform-named-capturing-groups-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash:
+        patched: '2022-08-19T19:46:29.339Z'
+    - lanyon > @babel/preset-env > @babel/preset-modules > @babel/plugin-transform-dotall-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash:
+        patched: '2022-08-19T19:46:29.339Z'
+    - lanyon > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-08-19T19:46:29.339Z'
+    - lanyon > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-08-19T19:46:29.339Z'
+    - lanyon > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-08-19T19:46:29.339Z'
+    - lanyon > scrolex > lodash:
+        patched: '2022-08-19T19:46:29.339Z'
+    - lanyon > node-sass > sass-graph > lodash:
+        patched: '2022-08-19T19:46:29.339Z'
+    - lanyon > node-sass > gaze > globule > lodash:
+        patched: '2022-08-19T19:46:29.339Z'
+    - on-the-githubs > request > form-data > async > lodash:
+        patched: '2022-08-19T19:46:29.339Z'
+  'npm:minimatch:20160620':
+    - on-the-githubs > mocha > glob > minimatch:
+        patched: '2022-08-19T19:46:29.339Z'
+  'npm:moment:20160126':
+    - on-the-githubs > cache-storage > moment:
+        patched: '2022-08-19T19:46:29.339Z'
+  'npm:ms:20170412':
+    - depurar > debug > ms:
+        patched: '2022-08-19T19:46:29.339Z'
+    - lanyon > scrolex > depurar > debug > ms:
+        patched: '2022-08-19T19:46:29.339Z'
+  'npm:ms:20151024':
+    - on-the-githubs > mocha > debug > ms:
+        patched: '2022-08-19T19:46:29.339Z'
+  'npm:request:20160119':
+    - on-the-githubs > request:
+        patched: '2022-08-19T19:46:29.339Z'
+  'npm:tough-cookie:20170905':
+    - on-the-githubs > request > tough-cookie:
+        patched: '2022-08-19T19:46:29.339Z'
+  'npm:tunnel-agent:20170305':
+    - on-the-githubs > request > tunnel-agent:
+        patched: '2022-08-19T19:46:29.339Z'
+  'npm:uglify-js:20151024':
+    - on-the-githubs > mocha > jade > transformers > uglify-js:
+        patched: '2022-08-19T19:46:29.339Z'

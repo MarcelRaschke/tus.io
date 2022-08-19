@@ -24,7 +24,9 @@
     "start:production": "npm run build:production && npm run serve:production",
     "start": "lanyon start",
     "test": "true",
-    "upgrade:modules": "updtr"
+    "upgrade:modules": "updtr",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "devDependencies": {
     "cross-env": "7.0.2",
@@ -43,10 +45,10 @@
     "glob": "7.1.6",
     "jquery": "3.5.1",
     "js-yaml": "3.14.0",
-    "lanyon": "0.2.31",
+    "lanyon": "0.3.22",
     "npm-run-all": "4.1.5",
     "on-the-githubs": "2.4.0",
-    "prismjs": "1.25.0",
+    "prismjs": "1.27.0",
     "regenerator-runtime": "0.13.5",
     "s-ago": "2.2.0",
     "skeleton-css": "2.0.4",
@@ -56,5 +58,8 @@
   "engines": {
     "yarn": ">= 1.0.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@snyk/protect": "latest"
+  },
+  "snyk": true
 }
